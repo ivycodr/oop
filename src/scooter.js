@@ -6,6 +6,7 @@ class Scooter {
         this.batteryCapacity = batteryCapacity;
         this.color = color;
         this.chargingLocationID = chargingLocationID;
+        
 
     }
 }

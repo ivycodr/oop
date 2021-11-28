@@ -9,9 +9,9 @@ class RentalActivity {
 
     }
 
-    calculatePayment() {
+    calculateRentalActivity() {
         // make use of payment details passed and charge the account
-        return 56;
+        return 25;
     }
 
     

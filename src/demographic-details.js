@@ -1,6 +1,6 @@
 class DemographicDetails {
-    constructor(streetAddress,city, state,zipCode,mobileNumber) {
-        this.streetAddress = streetAddress;
+    constructor(address,city, state,zipCode,mobileNumber) {
+        this.address = address;
         this.city = city;
         this.state = state;
         this.zipCode = zipCode;

@@ -8,7 +8,8 @@ describe("test scooter object", () => {
         expect(scooter.make).toBe("Honda");
         expect(scooter.model).toBe("A1234");
         expect(scooter.batteryCapacity).toBe("600mAh");
-        e
+        expect(scooter.color).toBe("black");
+        
 
 
     })

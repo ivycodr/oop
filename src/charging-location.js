@@ -14,7 +14,12 @@ class ChargingLocation {
     }
 
     findScooters(locationID) {
-        // return scooters
+        const scooter = this.scooters.find(
+            scooter => scooter.chargingLocationID  === locationID);
+            
+        
+       
+        return scooter;
     }
 }
 
